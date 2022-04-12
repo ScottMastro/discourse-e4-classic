@@ -1,6 +1,8 @@
 {
   "name": "E4-classic-air",
-  "component": false,
+  "component": true,
+  "license_url": null,
+  "about_url": null,
   "authors": null,
   "theme_version": null,
   "minimum_discourse_version": null,
