@@ -10,6 +10,18 @@
   "assets": {
   },
   "color_schemes": {
+    "e4-lite": {
+      "primary": "000000",
+      "secondary": "f8f8f8",
+      "tertiary": "9a5cfd",
+      "quaternary": "d6b6e0", 
+      "header_background": "f2f0f2",
+      "header_primary": "000000",
+      "highlight": "db9cff",
+      "danger": "e41111",
+      "success": "ec8972",
+      "love": "c16ad7"
+    }
   },
   "modifiers": {
   },
