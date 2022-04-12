@@ -1,0 +1,6 @@
+
+$bg: url(dark-light-choose($light-background, $dark-background));
+
+:root {
+  --bg-img: #{$bg};
+}
