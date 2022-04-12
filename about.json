@@ -8,6 +8,7 @@
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
+    "default-background": "assets/balls_background.png",
   },
   "color_schemes": {
     "e4-lite": {
