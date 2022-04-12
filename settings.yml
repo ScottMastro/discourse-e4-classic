@@ -1,5 +1,10 @@
-default-background:
+light-background:
   type: upload
   default: "assets/balls_background.png"
-  description: repeated background image
+  description: repeated background image for light mode
+
+dark-background:
+  type: upload
+  default: "assets/balls_background_dark.png"
+  description: repeated background image for dark mode
 
