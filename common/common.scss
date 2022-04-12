@@ -68,6 +68,7 @@ $e4-color-gradient-light: #ffffff;
 }
 
 .e4-button {
+  > li {
     > a {
       background-image: linear-gradient($e4-color-gradient-medium, $e4-color-gradient-dark);
       color: $e4-color-darkred;
