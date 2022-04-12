@@ -1,5 +1,5 @@
 default-background:
   type: upload
-  default: "assets/simple_banner.png"
+  default: "assets/balls_background.png"
   description: repeated background image
 
