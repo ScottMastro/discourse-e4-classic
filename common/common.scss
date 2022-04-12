@@ -19,3 +19,20 @@ html {
   }
 }
 
+.background-container{
+  display:none;
+}
+.search-banner {
+  display:none;
+}
+.category-heading{
+  align-items: center;
+  display: flex;
+}
+.category-logo.aspect-image {
+  max-width: 80px;
+}
+.category-breadcrumb{
+  display:none;
+}
+
