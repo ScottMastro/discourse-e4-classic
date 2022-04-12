@@ -19,6 +19,12 @@ html {
   }
 }
 
+$e4-color-darkred: #a30000;
+$e4-color-hardborder: #645f6e;
+$e4-color-gradient-medium: #e6e6e6;
+$e4-color-gradient-dark: #c9c9c9;
+$e4-color-gradient-light: #ffffff;
+
 .background-container{
   display:none;
 }
@@ -35,4 +41,10 @@ html {
 .category-breadcrumb{
   display:none;
 }
+.suggested-topics{
+  display:none;
+}
 
+.main-outlet{
+  border: 1px solid $e4-color-hardborder;
+}
