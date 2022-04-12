@@ -11,7 +11,7 @@
     "default-background": "assets/balls_background.png"
   },
   "color_schemes": {
-    "e4-lite": {
+    "Light E4": {
       "primary": "000000",
       "secondary": "f8f8f8",
       "tertiary": "9a5cfd",
@@ -22,6 +22,18 @@
       "danger": "e41111",
       "success": "ec8972",
       "love": "c16ad7"
+    },
+    "Dark E4": {
+      "primary": "e0e0e0",
+      "secondary": "2d2d2d",
+      "tertiary": "9a5cfd",
+      "quaternary": "cc99ff",
+      "header_background": "202020",
+      "header_primary": "e0e0e0",
+      "highlight": "cc99ff",
+      "danger": "d05454",
+      "success": "71bd9f",
+      "love": "fd00c7"
     }
   },
   "modifiers": {
