@@ -8,20 +8,21 @@
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
-    "default-background": "assets/balls_background.png"
+    "default-background": "assets/balls_background.png",
+    "dark-background": "assets/balls_background_dark.png"
   },
   "color_schemes": {
     "Light E4": {
-      "primary": "000000",
+      "primary": "1c1c1c",
       "secondary": "f8f8f8",
       "tertiary": "9a5cfd",
-      "quaternary": "d6b6e0", 
+      "quaternary": "cc00f2", 
       "header_background": "f2f0f2",
-      "header_primary": "000000",
+      "header_primary": "122b43",
       "highlight": "db9cff",
-      "danger": "e41111",
-      "success": "ec8972",
-      "love": "c16ad7"
+      "danger": "d05454",
+      "success": "71bd9f",
+      "love": "fd00c7"
     },
     "Dark E4": {
       "primary": "e0e0e0",
