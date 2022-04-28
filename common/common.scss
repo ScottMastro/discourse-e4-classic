@@ -19,13 +19,6 @@ html {
   }
 }
 
-$e4-color-darkred: #a30000;
-$e4-color-hardborder: #645f6e;
-$e4-color-softborder: #868686;
-$e4-color-gradient-medium: #e6e6e6;
-$e4-color-gradient-dark: #c9c9c9;
-$e4-color-gradient-light: #ffffff;
-
 .background-container{
   display:none;
 }
@@ -49,40 +42,39 @@ $e4-color-gradient-light: #ffffff;
 }
 
 #main-outlet{
-  border: 1px solid $e4-color-hardborder !important;
+  border: 1px solid var(--e4-hardborder) !important;
 }
 .category-box{
-  border: 1px solid $e4-color-hardborder !important;
+  border: 1px solid var(--e4-hardborder) !important;
 }
 .d-header{
-  border: 1px solid $e4-color-hardborder !important;
+  border: 1px solid var(--e4-hardborder) !important;
 }
 .topic-list-item{
-  border: 1px solid $e4-color-hardborder !important;
+  border: 1px solid var(--e4-hardborder) !important;
 }
 
 /* -----------------------------------E4 navbar classes */
 .e4-container {
-  background-image: linear-gradient($e4-color-gradient-medium, $e4-color-gradient-light, $e4-color-gradient-medium);
-  border: 1px solid $e4-color-hardborder;
+  background-image: linear-gradient(var(--e4-gradient-medium), var(--e4-gradient-light), var(--e4-gradient-medium));
+  border: 1px solid var(--e4-hardborder);
   border-radius: 10px;
 }
 
 .e4-button {
   > li {
     > a {
-      background-image: linear-gradient($e4-color-gradient-medium, $e4-color-gradient-dark);
-      color: $e4-color-darkred;
-      border: 1px solid $e4-color-softborder !important;
+      background-image: linear-gradient(var(--e4-gradient-medium), var(--e4-gradient-dark));
+      color: var(--e4-red);
+      border: 1px solid var(--e4-softborder) !important;
       border-radius: 10px;
       text-transform: uppercase;
 
       &:hover {
-        border: 1px solid $e4-color-hardborder !important;
-        color: $e4-color-darkred !important;
+        border: 1px solid var(--e4-hardborder) !important;
+        color: var(--e4-red)  !important;
       }
     }
   }
 }
 /* -----------------------------------E4 navbar classes */
-
