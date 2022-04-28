@@ -1,11 +1,11 @@
 $bg: url(dark-light-choose($light-background, $dark-background));
 
-$e4-color-darkred: dark-light-choose(#0000FF, #a30000);
-$e4-color-hardborder: #645f6e;
-$e4-color-softborder: #868686;
-$e4-color-gradient-medium: #e6e6e6;
-$e4-color-gradient-dark: #c9c9c9;
-$e4-color-gradient-light: #ffffff;
+$e4-color-darkred: dark-light-choose(#a30000, #6495ed);
+$e4-color-hardborder: dark-light-choose(#645f6e, #000000);
+$e4-color-softborder: dark-light-choose(#868686, #202020);
+$e4-color-gradient-medium: dark-light-choose(#e6e6e6, #303030);
+$e4-color-gradient-dark: dark-light-choose(#c9c9c9, #101010);
+$e4-color-gradient-light: dark-light-choose(#ffffff, #2d2d2d);
 
 :root {
   --bg-img: #{$bg};
@@ -14,7 +14,5 @@ $e4-color-gradient-light: #ffffff;
   --e4-softborder: #{$e4-color-softborder};
   --e4-gradient-medium: #{$e4-color-gradient-medium};
   --e4-gradient-dark: #{$e4-color-gradient-dark};
-  --e4-gradient-light: #{$e4-color-gradient-medium};
+  --e4-gradient-light: #{$e4-color-gradient-light};
 }
-
-
