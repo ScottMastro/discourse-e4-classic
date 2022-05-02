@@ -6,3 +6,12 @@
   padding: 0px 5px !important;
 }
 
+
+.custom-category-boxes:not(.above-discovery-categories-outlet) .category-box .category-box-inner .category-logo{
+  width: 90px !important;
+  height: 90px !important;
+}
+
+.custom-category-boxes:not(.above-discovery-categories-outlet){
+  grid-gap: 10px !important
+}
