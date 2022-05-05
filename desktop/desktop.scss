@@ -18,6 +18,10 @@
   background-color: var(--secondary-very-high) !important; 
 }
 
+.category-box{
+  max-height: 90px !important;
+}
+
 .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box .category-box-inner .category-logo{
   width: 90px !important;
   height: 90px !important;
