@@ -28,7 +28,7 @@ html {
 .suggested-topics{
   display:none;
 }
-.search-banner {
+.search-banner{
   display:none;
 }
 
@@ -48,7 +48,7 @@ html {
   border: 1px solid var(--e4-hardborder) !important;
 }
 .d-header{
-  border: 1px solid var(--e4-hardborder) !important;
+  border-bottom: 1px solid var(--e4-hardborder) !important;
 }
 .topic-list-item{
   border: 1px solid var(--e4-softborder) !important;
