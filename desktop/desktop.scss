@@ -13,6 +13,10 @@
   border-width: 1px 0px 0px 0px !important;
 }
 
+.topic-list-item:hover{
+  background-color: var(--secondary-very-high) !important; 
+}
+
 .custom-category-boxes:not(.above-discovery-categories-outlet) .category-box .category-box-inner .category-logo{
   width: 90px !important;
   height: 90px !important;
