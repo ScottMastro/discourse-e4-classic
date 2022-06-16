@@ -56,19 +56,21 @@ html {
   //border: 1px solid var(--primary) !important;
 }
 .category-box{
-  border: 1px solid var(--primary) !important;
+  //border: 1px solid var(--primary) !important;
 }
 .d-header{
-  border-bottom: 1px solid var(--primary) !important;
+  //border-bottom: 1px solid var(--primary) !important;
 }
 .topic-list-item{
-  border: 1px solid var(--primary) !important;
+  //border: 1px solid var(--primary) !important;
 }
 
 /* -----------------------------------E4 navbar classes */
 .e4-container {
   background-color: var(--secondary);
-  border: 1px solid var(--primary);
+  //border: 1px solid var(--primary);
+  border: 0px !important;
+
   border-radius: 10px;
   
   box-shadow: 0 24px 40px rgba(0,0,0,0.07),0 10.8529px 24.1177px rgba(0,0,0,0.0456112),0 4.50776px 10.0172px rgba(0,0,0,0.035),0 1.63037px 3.62304px rgba(0,0,0,0.0243888);
@@ -81,6 +83,7 @@ html {
       background-color: var(--secondary-very-high);
       color: var(--tertiary);
       //border: 1px solid var(--e4-softborder) !important;
+      border: 0px !important;
       border-radius: 10px;
       text-transform: uppercase;
 
