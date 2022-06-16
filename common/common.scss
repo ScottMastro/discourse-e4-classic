@@ -32,7 +32,9 @@ html {
 .category-logo{
   background-color:none !important;
 }
-
+.category-box-inner{
+  column-gap: 24px; 
+}
 
 .badge-category-bg{
   display:none !important;
