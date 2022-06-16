@@ -4,7 +4,7 @@ $e4-color-darkred: dark-light-choose(#a30000, #806be4);
 $e4-color-hardborder: dark-light-choose(#645f6e, #000000);
 $e4-color-softborder: dark-light-choose(#868686, #202020);
 $e4-color-gradient-medium: dark-light-choose(#e6e6e6, #303030);
-$e4-color-gradient-dark: dark-light-choose(#c9c9c9, #101010);
+$e4-color-gradient-dark: dark-light-choose(#c9c9c9, #{$primary});
 $e4-color-gradient-light: dark-light-choose(#ffffff, #2d2d2d);
 
 :root {
