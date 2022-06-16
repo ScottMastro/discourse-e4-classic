@@ -30,15 +30,23 @@ html {
   padding-right: 8px;
 }
 
-.category-logo{
-  background-color:var(--secondary-very-high) !important;
-  .logo{
-    img{
-      filter: brightness(0%) opacity(40%);
+.category-box-inner{
+  .category-logo{
+    background-color:var(--secondary-very-high) !important;
+      img{
+        filter: brightness(0%) opacity(40%);
+      }
     }
-    img:hover{
-      filter: none;
-      transition: 0.3s;
+  }
+}
+
+.category-box-inner:hover{
+  .category-logo{
+    .logo{
+      img{
+        filter: none;
+        transition: 0.3s;
+      }
     }
   }
 }
