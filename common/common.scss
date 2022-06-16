@@ -53,16 +53,16 @@ html {
 }
 
 #main-outlet{
-  border: 1px solid var(--e4-hardborder) !important;
+  border: 1px solid var(--primary) !important;
 }
 .category-box{
-  border: 1px solid var(--e4-hardborder) !important;
+  border: 1px solid var(--primary) !important;
 }
 .d-header{
-  border-bottom: 1px solid var(--e4-hardborder) !important;
+  border-bottom: 1px solid var(--primary) !important;
 }
 .topic-list-item{
-  border: 1px solid var(--e4-softborder) !important;
+  border: 1px solid var(--primary) !important;
 }
 
 /* -----------------------------------E4 navbar classes */
@@ -82,8 +82,8 @@ html {
       text-transform: uppercase;
 
       &:hover {
-        border: 1px solid var(--e4-hardborder) !important;
-        color: var(--e4-red)  !important;
+        //border: 1px solid var(--e4-hardborder) !important;
+        background-color: var(--secondary-high);
       }
     }
   }
