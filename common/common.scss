@@ -89,7 +89,8 @@ html {
 
       &:hover {
         //border: 1px solid var(--e4-hardborder) !important;
-        background-color: var(--secondary-high);
+        color: var(--tertiary) !important;
+        background-color: var(--secondary-high) !important;
       }
     }
   }
