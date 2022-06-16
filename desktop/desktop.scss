@@ -34,3 +34,11 @@
 .navigation-container{
  margin-top: 0em !important 
 }
+
+.e4-button {
+  > li {
+    > a {
+      font-size: larger;
+    }
+  }
+}
