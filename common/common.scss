@@ -32,7 +32,8 @@ html {
 .category-logo{
   background-color:none !important;
 }
-.custom-category-boxes{
+
+.custom-category-boxes:not(.above-discovery-categories-outlet) .category-box .category-box-inner{
   column-gap: 24px; 
 }
 
