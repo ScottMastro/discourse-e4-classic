@@ -34,8 +34,10 @@ html {
   background-color:var(--secondary-very-high) !important;
   .logo{
     img{
-      
       filter: brightness(0%) opacity(40%);
+    }
+    img:hover{
+      filter: none;
     }
   }
 }
