@@ -1,4 +1,5 @@
-$bg: url(dark-light-choose($light-background, $dark-background));
+//$bg: url(dark-light-choose($light-background, $dark-background));
+$bg: url($light-background);
 
 $e4-color-darkred: dark-light-choose(#a30000, #806be4);
 $e4-color-hardborder: dark-light-choose(#645f6e, #000000);
