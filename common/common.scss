@@ -68,14 +68,14 @@ html {
 /* -----------------------------------E4 navbar classes */
 .e4-container {
   background-color: var(--secondary);
-  border: 1px solid var(--e4-hardborder);
+  border: 1px solid var(--primary);
   border-radius: 10px;
 }
 
 .e4-button {
   > li {
     > a {
-      background-image: linear-gradient(var(--e4-gradient-medium), var(--e4-gradient-dark));
+      background-color: var(--secondary-high);
       color: var(--tertiary);
       border: 1px solid var(--e4-softborder) !important;
       border-radius: 10px;
