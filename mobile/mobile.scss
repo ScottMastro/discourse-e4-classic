@@ -66,12 +66,7 @@
   }
 }
 
-//Messages screen
-.paginated-topics-list{
-  .topic-list{
-    .topic-list-body{
-      .topic-list-data{
-      }
-    }
-  }
+
+.topic-post article {
+  border-top: 1px solid var(--primary-low) !important;
 }
