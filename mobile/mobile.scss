@@ -29,8 +29,10 @@
   margin-top: 0em !important;
 }
 
-.topic-item-stats .num.activity{
-  margin-left: 0px !important; 
+.topic-list{
+  .topic-item-stats{
+    margin-left: 0px !important;
+  }
 }
 
 .topic-list-item {
