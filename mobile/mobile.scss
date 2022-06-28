@@ -31,7 +31,11 @@
 
 .topic-list{
   .topic-list-item {
-    border-bottom: 5px solid red !important;
+    border-bottom: 1px solid !important;
+    border-top: 0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+
     .topic-list-data{
       padding: 0px 0px !important;
     }
