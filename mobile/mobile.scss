@@ -44,7 +44,7 @@
     border-radius: 0px !important;
 
     .topic-list-data{
-      padding: 0px 0px !important;
+      padding: 5px 0px !important;
     }
   }
   .topic-item-stats{
@@ -63,5 +63,15 @@
 
   .topic-list-data.posts{
     justify-content: left !important; 
+  }
+}
+
+//Messages screen
+.paginated-topics-list{
+  .topic-list{
+    .topic-list-body{
+      .topic-list-data{
+      }
+    }
   }
 }
