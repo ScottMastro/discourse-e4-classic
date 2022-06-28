@@ -52,7 +52,10 @@
 
 .topic-list-item {
   padding: 5px !important;
-}
-.topic-list-item .topic-list-data.posts{
-  justify-content: left !important; 
+  box-shadow: none !important;
+  margin-bottom: 0em !important;
+
+  .topic-list-data.posts{
+    justify-content: left !important; 
+  }
 }
