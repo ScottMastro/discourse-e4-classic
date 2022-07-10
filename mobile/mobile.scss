@@ -1,3 +1,9 @@
+html {
+  body {
+    background-color: var(--primary-50) !important;
+  }
+}
+
 #main-outlet {
   background-color: var(--secondary) !important;
   width: calc(96.5% - 1em) !important;
