@@ -1,3 +1,13 @@
+html {
+  body {
+    background-color: var(--secondary) !important;
+    background-image: var(--bg-img) !important;
+    background-size: auto !important;
+
+    background-blend-mode: multiply !important;
+  }
+}
+
 .topic-list .topic-excerpt{
   display: none !important;
 }
